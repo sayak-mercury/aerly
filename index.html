@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aerly — Handmade Candles &amp; Perfumes in Kolkata</title>
+
+<!-- Core SEO -->
+<meta name="description" content="Handmade candles shaped like roses, succulents and blooms, and small-batch perfumes blended in Kolkata. Custom colours and fragrances made to order, shipped across India.">
+<meta name="keywords" content="handmade candles, scented candles, Kolkata candles, custom candles India, handmade perfume, niche perfume India, Indian perfume brand, Aerly, rose candle, gel wax candle">
+<meta name="author" content="Aerly">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://myaerly.in/">
+
+<!-- Open Graph (Facebook, WhatsApp, LinkedIn previews) -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://myaerly.in/">
+<meta property="og:site_name" content="Aerly">
+<meta property="og:title" content="Aerly — Handmade Candles &amp; Perfumes in Kolkata">
+<meta property="og:description" content="Handmade candles shaped like roses, succulents and blooms, and small-batch perfumes blended in Kolkata. Custom colours and fragrances made to order.">
+<meta property="og:image" content="https://myaerly.in/images/hero.jpg">
+<meta property="og:locale" content="en_IN">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Aerly — Handmade Candles &amp; Perfumes in Kolkata">
+<meta name="twitter:description" content="Handmade candles shaped like roses, succulents and blooms, and small-batch perfumes blended in Kolkata.">
+<meta name="twitter:image" content="https://myaerly.in/images/hero.jpg">
+
+<!-- Favicon (placeholder emoji mark — swap for your logo-based favicon when ready) -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='80'%3E%F0%9F%95%AF%EF%B8%8F%3C/text%3E%3C/svg%3E">
+
+<!-- Structured data for local/business search -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Aerly",
+  "description": "Handmade candles and perfumes, made in small batches in Kolkata, India.",
+  "image": "https://myaerly.in/images/hero.jpg",
+  "url": "https://myaerly.in/",
+  "telephone": "+91-90733-77829",
+  "priceRange": "₹₹",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Kolkata",
+    "addressRegion": "West Bengal",
+    "addressCountry": "IN"
+  },
+  "sameAs": [
+    "https://www.instagram.com/a.e.r.l.y"
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,500&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --cream: #F6EDDC;
+    --cream-alt: #ECDBBE;
+    --wine: #3E2415;
+    --wine-deep: #281609;
+    --gold: #BF5B26;
+    --gold-light: #E0864C;
+    --ink: #2E2013;
+    --ink-soft: #7C6A52;
+    --line: rgba(62, 36, 21, 0.18);
+    --band-text: #F6EDDC;
+    --band-text-soft: #E3CBB8;
+  }
+  :root {
+    color-scheme: light dark;
+  }
+
+  :root[data-theme="dark"] {
+    --cream: #1A120A;
+    --cream-alt: #241A0F;
+    --ink: #EFE2CE;
+    --ink-soft: #C2A27C;
+    --line: rgba(224, 134, 76, 0.25);
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: calc(72px + env(safe-area-inset-top, 0px)); }
+  body {
+    margin: 0;
+    background: var(--cream);
+    color: var(--ink);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    -webkit-font-smoothing: antialiased;
+  }
+  img { max-width: 100%; display: block; }
+  a { color: inherit; }
+
+  h1, h2, h3, .serif {
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    color: var(--wine);
+    margin: 0;
+  }
+  
+  :root[data-theme="dark"] h1,
+  :root[data-theme="dark"] h2,
+  :root[data-theme="dark"] h3,
+  :root[data-theme="dark"] .serif { color: var(--gold-light); }
+
+  .wrap { max-width: 1140px; margin: 0 auto; padding: 0 28px; }
+
+  /* ---------- NAV ---------- */
+  nav.topbar {
+    position: sticky; top: 0; z-index: 50;
+    padding-top: env(safe-area-inset-top, 0px);
+    background: var(--wine);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.18);
+  }
+  .nav-inner {
+    max-width: 1140px; margin: 0 auto; padding: 16px 28px;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .brandmark {
+    font-family: 'Fraunces', serif; font-size: 22px; letter-spacing: 0.06em;
+    color: var(--band-text); text-decoration: none;
+  }
+
+  .navlinks { display: flex; gap: 28px; font-size: 14px; }
+  .navlinks a { text-decoration: none; color: var(--band-text-soft); }
+  .navlinks a:hover { color: var(--band-text); }
+  .nav-toggle { display: none; }
+
+  @media (max-width: 720px) {
+    .navlinks {
+      display: none;
+      position: absolute; top: 100%; left: 0; right: 0;
+      background: var(--wine); border-top: 1px solid rgba(246,237,220,0.15);
+      flex-direction: column; gap: 0; padding: 8px 0;
+      box-shadow: 0 8px 14px rgba(0,0,0,0.18);
+    }
+    .navlinks.open { display: flex; }
+    .navlinks a { padding: 12px 28px; border-top: 1px solid rgba(246,237,220,0.12); }
+    .navlinks a:first-child { border-top: none; }
+    .nav-toggle {
+      display: block; background: none; border: none; cursor: pointer;
+      font-family: 'Work Sans', sans-serif; font-size: 14px; color: var(--band-text);
+      padding: 6px 10px;
+    }
+  }
+
+  /* ---------- HERO ---------- */
+  .hero {
+    display: grid; grid-template-columns: 1fr 1fr; align-items: center;
+    gap: 40px; padding: 64px 28px 56px; max-width: 1140px; margin: 0 auto;
+  }
+  .hero-copy { animation: riseIn 0.9s ease both; }
+  @keyframes riseIn {
+    from { opacity: 0; transform: translateY(14px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @media (prefers-reduced-motion: reduce) { .hero-copy { animation: none; } }
+
+  .eyebrow-line {
+    width: 42px; height: 2px; background: var(--gold); margin-bottom: 22px;
+  }
+  .hero h1 {
+    font-size: clamp(40px, 6vw, 64px); line-height: 1.04; letter-spacing: -0.01em;
+  }
+  .hero .tagline {
+    font-family: 'Fraunces', serif; font-style: italic; font-weight: 500;
+    color: var(--gold); font-size: 19px; margin-top: 14px;
+  }
+  .hero p.lede {
+    margin-top: 22px; max-width: 42ch; color: var(--ink-soft); font-size: 16px;
+  }
+  .hero-ctas { display: flex; gap: 16px; margin-top: 32px; flex-wrap: wrap; }
+
+  .btn {
+    display: inline-block; padding: 13px 26px; font-size: 14px;
+    text-decoration: none; border-radius: 2px; font-weight: 500;
+    transition: transform 0.15s ease;
+  }
+  .btn-primary { background: var(--wine); color: var(--cream); }
+  .btn-primary:hover { transform: translateY(-1px); }
+  
+  :root[data-theme="dark"] .btn-primary { background: var(--gold-light); color: var(--wine-deep); }
+
+  .btn-ghost { border: 1px solid var(--line); color: var(--wine); }
+  
+  :root[data-theme="dark"] .btn-ghost { color: var(--gold-light); }
+
+  .hero-img { position: relative; }
+  .hero-img img {
+    width: 100%; border-radius: 3px;
+    box-shadow: 0 30px 60px -20px rgba(42, 16, 24, 0.35);
+  }
+  .hero-img::after {
+    content: ''; position: absolute; inset: -16px -16px auto auto;
+    width: 90px; height: 90px; border: 1px solid var(--gold);
+    z-index: -1; top: -16px; right: -16px;
+  }
+
+  @media (max-width: 760px) {
+    .hero { grid-template-columns: 1fr; padding-top: 36px; }
+    .hero-img { order: -1; max-width: 340px; margin: 0 auto; }
+  }
+
+  /* ---------- SECTION HEADERS ---------- */
+  section { padding: 76px 0; }
+  .section-head { max-width: 560px; margin: 0 0 48px; }
+  .section-head h2 { font-size: clamp(28px, 4vw, 38px); }
+  .section-head p { color: var(--ink-soft); margin-top: 12px; font-size: 15.5px; }
+
+  /* ---------- STORY ---------- */
+  .story {
+    background: var(--cream-alt); text-align: center;
+  }
+  .story blockquote {
+    font-family: 'Fraunces', serif; font-style: italic; font-weight: 500;
+    font-size: clamp(24px, 3.6vw, 34px); color: var(--wine);
+    max-width: 680px; margin: 0 auto; line-height: 1.35;
+  }
+  
+  :root[data-theme="dark"] .story blockquote { color: var(--gold-light); }
+  .story p.sub {
+    margin: 22px auto 0; max-width: 56ch; color: var(--ink-soft); font-size: 15.5px;
+  }
+
+  /* ---------- COLLECTIONS (zigzag) ---------- */
+  .collection-row {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: center;
+    padding: 36px 0; border-top: 1px solid var(--line);
+  }
+  .collection-row:last-child { border-bottom: 1px solid var(--line); }
+  .collection-row:nth-child(even) .c-copy { order: 2; }
+  .collection-row img {
+    width: 100%; aspect-ratio: 1/1; object-fit: cover; border-radius: 3px;
+  }
+  .c-copy .num { font-family: 'Fraunces', serif; font-style: italic; color: var(--gold); font-size: 14px; }
+  .c-copy h3 { font-size: 26px; margin-top: 8px; }
+  .c-copy p { color: var(--ink-soft); margin-top: 10px; max-width: 40ch; font-size: 15px; }
+  .c-copy .price { margin-top: 14px; font-size: 14px; color: var(--wine); font-weight: 600; }
+  
+  :root[data-theme="dark"] .c-copy .price { color: var(--gold-light); }
+
+  @media (max-width: 720px) {
+    .collection-row { grid-template-columns: 1fr; gap: 20px; }
+    .collection-row:nth-child(even) .c-copy { order: 0; }
+    .collection-row img { max-width: 320px; margin: 0 auto; }
+  }
+
+  /* ---------- TABS ---------- */
+  .tab-switch {
+    display: flex; justify-content: center; gap: 10px;
+    padding: 36px 0 8px;
+  }
+  .tab-btn {
+    font-family: 'Fraunces', serif; font-size: 16px; letter-spacing: 0.02em;
+    padding: 12px 30px; border-radius: 999px; cursor: pointer;
+    border: 1px solid var(--line); background: transparent; color: var(--ink-soft);
+    transition: background 0.15s ease, color 0.15s ease;
+  }
+  .tab-btn.active { background: var(--wine); color: var(--cream); border-color: var(--wine); }
+  :root[data-theme="dark"] .tab-btn.active { background: var(--gold-light); color: var(--wine-deep); border-color: var(--gold-light); }
+  .tab-panel { display: none; }
+  .tab-panel.active { display: block; }
+
+  .cat-switch {
+    display: flex; flex-wrap: wrap; justify-content: center; gap: 8px;
+    margin: 0 0 34px;
+  }
+  .cat-btn {
+    font-family: 'Work Sans', sans-serif; font-size: 13px; letter-spacing: 0.01em;
+    padding: 8px 18px; border-radius: 999px; cursor: pointer;
+    border: 1px solid var(--line); background: transparent; color: var(--ink-soft);
+    transition: background 0.15s ease, color 0.15s ease;
+  }
+  .cat-btn.active { background: var(--wine); color: var(--cream); border-color: var(--wine); }
+  :root[data-theme="dark"] .cat-btn.active { background: var(--gold-light); color: var(--wine-deep); border-color: var(--gold-light); }
+  .perfume-card.hidden { display: none; }
+
+  /* ---------- PERFUMES ---------- */
+  .perfume-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 36px;
+  }
+  @media (max-width: 900px) {
+    .perfume-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 600px) {
+    .perfume-grid { grid-template-columns: 1fr; }
+  }
+  .perfume-card {
+    border: 1px solid var(--line); padding: 28px 24px; border-radius: 3px;
+    display: flex; flex-direction: column; align-items: center; text-align: center;
+  }
+  .bottle-wrap { width: 72px; height: 150px; margin-bottom: 18px; }
+  .bottle-wrap svg { width: 100%; height: 100%; }
+  .perfume-card h3 { font-size: 20px; margin-bottom: 6px; }
+  .perfume-mood {
+    font-family: 'Fraunces', serif; font-style: italic; font-size: 13px;
+    color: var(--gold); margin-bottom: 14px; letter-spacing: 0.02em;
+  }
+  .perfume-card p.desc {
+    font-size: 14px; color: var(--ink-soft); margin-bottom: 18px; max-width: 32ch;
+  }
+  .note-pills { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; }
+  .note-pill {
+    font-size: 11px; letter-spacing: 0.03em; text-transform: uppercase;
+    border: 1px solid var(--line); color: var(--ink-soft);
+    padding: 4px 10px; border-radius: 999px;
+  }
+
+  /* ---------- FRAGRANCE BAND ---------- */
+  .fragrance-band {
+    background: var(--wine); color: var(--band-text);
+  }
+  
+  :root[data-theme="dark"] .fragrance-band { background: var(--wine-deep); }
+  .fragrance-band .section-head h2 { color: var(--band-text); }
+  .fragrance-band .section-head p { color: var(--band-text-soft); }
+  .frag-group { margin-bottom: 30px; }
+  .frag-group:last-child { margin-bottom: 0; }
+  .frag-group-label {
+    font-family: 'Fraunces', serif; font-style: italic; font-size: 14px;
+    color: var(--band-text-soft); margin-bottom: 12px; letter-spacing: 0.02em;
+  }
+  .frag-pills { display: flex; flex-wrap: wrap; gap: 14px; }
+  .frag-pill {
+    font-family: 'Fraunces', serif; font-size: 15px; font-style: italic;
+    border: 1px solid rgba(246, 237, 220, 0.4); color: var(--band-text);
+    padding: 10px 20px; border-radius: 999px;
+  }
+  .frag-pill:nth-child(3n+1) { transform: rotate(-1.4deg); }
+  .frag-pill:nth-child(3n+2) { transform: rotate(1deg); }
+
+  /* ---------- CUSTOM / CONTACT ---------- */
+  .contact-split {
+    display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 50px; align-items: start;
+  }
+  .contact-split h2 { font-size: clamp(26px, 3.6vw, 34px); }
+  .contact-split p { color: var(--ink-soft); margin-top: 14px; max-width: 46ch; }
+  .contact-card {
+    border: 1px solid var(--line); padding: 32px; border-radius: 3px;
+  }
+  .contact-card .label { font-size: 13px; color: var(--ink-soft); margin-bottom: 6px; }
+  .contact-card .value {
+    font-family: 'Fraunces', serif; font-size: 22px; color: var(--wine); margin-bottom: 22px;
+  }
+  
+  :root[data-theme="dark"] .contact-card .value { color: var(--gold-light); }
+  .contact-card .value:last-of-type { margin-bottom: 0; }
+  .contact-card a.value-link { text-decoration: none; }
+
+  @media (max-width: 760px) {
+    .contact-split { grid-template-columns: 1fr; }
+  }
+  .contact-split.perfume-mode #customCopy { display: none; }
+  .contact-split.perfume-mode .contact-card {
+    grid-column: 1 / -1; max-width: 420px; margin: 0 auto;
+  }
+
+  /* ---------- FOOTER ---------- */
+  footer {
+    background: var(--wine-deep); color: #D9C7B8; padding: 48px 0 calc(40px + env(safe-area-inset-bottom, 0px));
+    text-align: center;
+  }
+  footer .brandmark { color: var(--band-text); display: block; margin-bottom: 10px; }
+  footer .tagline { font-family: 'Fraunces', serif; font-style: italic; color: var(--gold-light); font-size: 15px; }
+  footer .meta { margin-top: 22px; font-size: 13px; color: #B9A496; }
+  footer .meta a { text-decoration: underline; }
+
+  /* ---------- FLOATING WHATSAPP BUTTON ---------- */
+  .wa-float {
+    position: fixed;
+    right: 20px;
+    bottom: calc(20px + env(safe-area-inset-bottom, 0px));
+    z-index: 100;
+    width: 56px; height: 56px;
+    background: #25D366;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+    text-decoration: none;
+  }
+  .wa-float svg { width: 30px; height: 30px; }
+  .wa-float:hover { transform: scale(1.06); }
+
+  .contact-card .wa-cta {
+    display: block; text-align: center; margin-top: 22px;
+    background: #25D366; color: #fff;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+    --cream: #1A120A;
+    --cream-alt: #241A0F;
+    --ink: #EFE2CE;
+    --ink-soft: #C2A27C;
+    --line: rgba(224, 134, 76, 0.25);
+  }
+    :root:not([data-theme="light"]) h1,
+  :root:not([data-theme="light"]) h2,
+  :root:not([data-theme="light"]) h3,
+  :root:not([data-theme="light"]) .serif { color: var(--gold-light); }
+    :root:not([data-theme="light"]) .btn-primary { background: var(--gold-light); color: var(--wine-deep); }
+    :root:not([data-theme="light"]) .btn-ghost { color: var(--gold-light); }
+    :root:not([data-theme="light"]) .story blockquote { color: var(--gold-light); }
+    :root:not([data-theme="light"]) .c-copy .price { color: var(--gold-light); }
+    :root:not([data-theme="light"]) .tab-btn.active { background: var(--gold-light); color: var(--wine-deep); border-color: var(--gold-light); }
+    :root:not([data-theme="light"]) .cat-btn.active { background: var(--gold-light); color: var(--wine-deep); border-color: var(--gold-light); }
+    :root:not([data-theme="light"]) .fragrance-band { background: var(--wine-deep); }
+    :root:not([data-theme="light"]) .contact-card .value { color: var(--gold-light); }
+  }
+</style>
+</head>
+<body>
+
+<nav class="topbar">
+  <div class="nav-inner">
+    <a href="#top" class="brandmark">AERLY</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">MENU</button>
+    <div class="navlinks" id="navLinks">
+      <a href="#collections">Collections</a>
+      <a href="#perfumes">Perfumes</a>
+      <a href="#fragrances">Fragrances</a>
+      <a href="#custom">Custom Orders</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<div id="top"></div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-copy">
+    <div class="eyebrow-line"></div>
+    <h1>Candles &amp; perfumes,<br>made like something<br>worth keeping.</h1>
+    <p class="tagline">Too light to resist. Not worn. Breathed.</p>
+    <p class="lede">Candles hand-poured and carved into roses, succulents and blooms. Perfumes hand-blended from real oudh, rose, tobacco and resin, then rested for weeks before bottling. Both made in small batches in Kolkata, carrying the small variations that come from not being mass-produced.</p>
+    <div class="hero-ctas">
+      <a class="btn btn-primary" href="#collections">See the collections</a>
+      <a class="btn btn-ghost" href="https://wa.me/919073377829?text=Hi%20Aerly%2C%20I%27d%20like%20to%20know%20more%20about%20your%20candles." target="_blank" rel="noopener">DM to order</a>
+    </div>
+  </div>
+  <div class="hero-img">
+    <img src="images/hero.jpg" alt="Hand-carved burgundy rose candle held in a hand, with greenery in the background">
+  </div>
+</section>
+
+<!-- STORY -->
+<section class="story">
+  <div class="wrap">
+    <blockquote>"Every candle leaves the mould a little different, and every perfume changes slightly as it rests — that's not a flaw, that's the point."</blockquote>
+    <p class="sub">Aerly began as an experiment in wax, colour and fragrance, and grew into a small Kolkata studio making candles shaped like roses, succulents, and festive blooms, alongside perfumes hand-blended and rested in small batches — each one finished by hand, never mass-produced.</p>
+  </div>
+</section>
+
+<!-- TAB SWITCH -->
+<div class="tab-switch">
+  <button class="tab-btn active" data-tab="candles" type="button">Candles</button>
+  <button class="tab-btn" data-tab="perfumes" type="button">Perfumes</button>
+</div>
+
+<div id="tab-candles" class="tab-panel active">
+
+<!-- COLLECTIONS -->
+<section id="collections">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>The Collections</h2>
+      <p>Seven lines, one studio. Browse by shape, or just by what catches your eye.</p>
+    </div>
+
+    <div class="collection-row">
+      <img src="images/01-rose.jpg" alt="Blush and coral rose-shaped candles held in a hand">
+      <div class="c-copy">
+        <div class="num">01 — Rose</div>
+        <h3>Rose Collection</h3>
+        <p>Hand-carved rose blooms, fully customisable in colour and finish — the rose has long stood for love, devotion and remembrance, making each piece as much a keepsake as a light source.</p>
+      </div>
+    </div>
+
+    <div class="collection-row">
+      <img src="images/02-cactus-succulent.jpg" alt="Cactus and succulent shaped candle held in a hand">
+      <div class="c-copy">
+        <div class="num">02 — Cactus &amp; Succulent</div>
+        <h3>Cactus &amp; Succulent</h3>
+        <p>Textured desert forms, available in any palette you choose — cacti and succulents are symbols of endurance and quiet resilience, thriving where little else can.</p>
+      </div>
+    </div>
+
+    <div class="collection-row">
+      <img src="images/03-bubble-cube.jpg" alt="Two bubble cube candles in ivory and cream">
+      <div class="c-copy">
+        <div class="num">03 — Bubble Cube</div>
+        <h3>Bubble Cube</h3>
+        <p>Soft, rounded cubes in a smooth bubbled texture, shaded to your preference — a modern form built around the idea of comfort and ease.</p>
+      </div>
+    </div>
+
+    <div class="collection-row">
+      <img src="images/04-gel-bloom.jpg" alt="Marbled purple and gold rose candle set in clear gel wax">
+      <div class="c-copy">
+        <div class="num">04 — Gel Bloom</div>
+        <h3>Gel Bloom</h3>
+        <p>Botanical blooms suspended in crystal-clear gel wax, coloured to order — each flower held in a single, unchanging moment, the way a memory is kept.</p>
+      </div>
+    </div>
+
+    <div class="collection-row">
+      <img src="images/05-sunflower.jpg" alt="Red gerbera sunflower candle in branded Aerly packaging">
+      <div class="c-copy">
+        <div class="num">05 — Sunflower</div>
+        <h3>Sunflower Collection</h3>
+        <p>Gerbera-style blooms in any colour combination you request — these flowers are traditionally associated with cheerfulness, warmth and quiet optimism.</p>
+      </div>
+    </div>
+
+    <div class="collection-row">
+      <img src="images/06-tealight.jpg" alt="Pack of four daisy tealight candles in pink shades">
+      <div class="c-copy">
+        <div class="num">06 — Tealight</div>
+        <h3>Tealight Collection</h3>
+        <p>Daisy tealights in your choice of shades, sold as a pack of four — the daisy carries meanings of innocence, new beginnings and simple joy.</p>
+      </div>
+    </div>
+
+    <div class="collection-row">
+      <img src="images/07-diya.jpg" alt="Rose candle in red and marigold set inside a terracotta diya cup">
+      <div class="c-copy">
+        <div class="num">07 — Diya</div>
+        <h3>Diya Collection</h3>
+        <p>A rose bloom set in a traditional terracotta diya cup, finished in colours of your choosing — the diya itself represents the triumph of light over darkness, at the heart of festive tradition.</p>
+      </div>
+    </div>
+
+    <div class="collection-row">
+      <img src="images/08-gel-layers.jpg" alt="Layered ombre gel wax candle in a whiskey glass, red to amber to cream">
+      <div class="c-copy">
+        <div class="num">08 — Gel Layers</div>
+        <h3>Gel Layers</h3>
+        <p>A layered gel candle in a glass tumbler, palette fully customisable — each layer a small reminder that beauty often arrives gradually, not all at once.</p>
+      </div>
+    </div>
+
+    <div class="collection-row">
+      <img src="images/09-rose-gift-ready.jpg" alt="Pink rose candle on a gold-rimmed wooden base, individually wrapped">
+      <div class="c-copy">
+        <div class="num">09 — Rose, Gift Ready</div>
+        <h3>Rose — Gift Ready</h3>
+        <p>A rose bloom on a wooden base, individually wrapped and ready to gift as is — a classic symbol of love and appreciation, handed over exactly as it's meant to be received.</p>
+      </div>
+    </div>
+
+    <div class="collection-row">
+      <img src="images/10-botanical-jar.jpg" alt="Botanical gel candle in a glass jar with dried flowers, pine cone and gold leaf">
+      <div class="c-copy">
+        <div class="num">10 — Botanical Jar</div>
+        <h3>Botanical Jar</h3>
+        <p>Dried botanicals and gold leaf suspended in clear gel wax, set in a reusable glass jar — a quiet study in preserving a piece of nature just as it was found.</p>
+      </div>
+    </div>
+
+    <div class="collection-row">
+      <img src="images/11-laddu-candle.jpg" alt="Orange laddu-shaped candles with silver leaf accents in a gift box">
+      <div class="c-copy">
+        <div class="num">11 — Laddu Candle</div>
+        <h3>Laddu Candle</h3>
+        <p>A textured, sweet-shaped candle finished with silver leaf, gift-boxed and colour-customisable — inspired by the laddu, a traditional symbol of celebration and shared joy.</p>
+      </div>
+    </div>
+
+    <div class="collection-row">
+      <img src="images/12-wax-sachet.jpg" alt="Three wax sachet designs: rose duo, daisy, and peony marble">
+      <div class="c-copy">
+        <div class="num">12 — Wax Sachet</div>
+        <h3>Wax Sachet</h3>
+        <p>Scented wax sachet bars with hand-finished floral reliefs, customisable in colour and fragrance — small keepsakes of calm meant for a drawer or wardrobe.</p>
+      </div>
+    </div>
+
+    <div class="collection-row">
+      <img src="images/13-diya-garden.jpg" alt="Orange flower candle in a terracotta diya cup, styled with scattered floral accents">
+      <div class="c-copy">
+        <div class="num">13 — Diya Garden</div>
+        <h3>Diya Garden</h3>
+        <p>A flower bloom set in a terracotta diya cup, styled as a little garden of light — diyas have long symbolised hope and new beginnings in festive tradition.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FRAGRANCES -->
+<section id="fragrances" class="fragrance-band">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Choose Your Fragrance</h2>
+      <p>Every shape in our catalogue can be scented to order from this list.</p>
+    </div>
+    <div class="frag-group">
+      <div class="frag-group-label">Floral</div>
+      <div class="frag-pills">
+        <span class="frag-pill">Rose</span>
+        <span class="frag-pill">Kacha Golap</span>
+        <span class="frag-pill">Shiuli</span>
+        <span class="frag-pill">Jasmine</span>
+        <span class="frag-pill">Lavender</span>
+      </div>
+    </div>
+    <div class="frag-group">
+      <div class="frag-group-label">Gourmet</div>
+      <div class="frag-pills">
+        <span class="frag-pill">Vanilla</span>
+        <span class="frag-pill">Strawberry</span>
+        <span class="frag-pill">Coffee</span>
+        <span class="frag-pill">Chocolate</span>
+      </div>
+    </div>
+    <div class="frag-group">
+      <div class="frag-group-label">Traditional &amp; Spice</div>
+      <div class="frag-pills">
+        <span class="frag-pill">Dhuno</span>
+        <span class="frag-pill">Kesar</span>
+      </div>
+    </div>
+    <div class="frag-group">
+      <div class="frag-group-label">Fresh &amp; Fruity</div>
+      <div class="frag-pills">
+        <span class="frag-pill">Tropical Sorbet</span>
+        <span class="frag-pill">Ocean Breeze</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+</div>
+
+<div id="tab-perfumes" class="tab-panel">
+
+<!-- PERFUMES -->
+<section id="perfumes">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>The Perfumes</h2>
+      <p>Hand-blended in small batches and left to rest for weeks before bottling — each one built around a single idea, not a trend.</p>
+    </div>
+
+    <div class="cat-switch">
+      <button class="cat-btn active" data-cat="all" type="button">All</button>
+      <button class="cat-btn" data-cat="oudh" type="button">Oudh &amp; Woods</button>
+      <button class="cat-btn" data-cat="tobacco" type="button">Tobacco &amp; Smoke</button>
+      <button class="cat-btn" data-cat="floral" type="button">Floral</button>
+      <button class="cat-btn" data-cat="fresh" type="button">Fresh &amp; Aquatic</button>
+      <button class="cat-btn" data-cat="gourmand" type="button">Gourmand</button>
+      <button class="cat-btn" data-cat="citrus" type="button">Citrus &amp; Chypre</button>
+    </div>
+
+    <div class="perfume-grid">
+
+      <div class="perfume-card" data-category="tobacco">
+        <div class="bottle-wrap">
+          <svg viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg">
+            <rect x="24" y="6" width="12" height="14" rx="2" fill="#3E2415"/>
+            <path d="M18 24 Q18 20 24 20 L36 20 Q42 20 42 24 L46 108 Q46 116 38 116 L22 116 Q14 116 14 108 Z" fill="#6B3A22" opacity="0.85"/>
+          </svg>
+        </div>
+        <h3>Aerly Noir</h3>
+        <div class="perfume-mood">Dark &amp; Resinous</div>
+        <p class="desc">Tobacco, leather and warm saffron layered over oudh and sandalwood — built for cold evenings, not first impressions.</p>
+        <div class="note-pills">
+          <span class="note-pill">Tobacco</span>
+          <span class="note-pill">Leather</span>
+          <span class="note-pill">Saffron</span>
+          <span class="note-pill">Oudh</span>
+        </div>
+      </div>
+
+      <div class="perfume-card" data-category="floral">
+        <div class="bottle-wrap">
+          <svg viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg">
+            <rect x="24" y="6" width="12" height="14" rx="2" fill="#BF5B26"/>
+            <path d="M18 24 Q18 20 24 20 L36 20 Q42 20 42 24 L46 108 Q46 116 38 116 L22 116 Q14 116 14 108 Z" fill="#E0B49C" opacity="0.9"/>
+          </svg>
+        </div>
+        <h3>Aerly Bloom</h3>
+        <div class="perfume-mood">Soft &amp; Floral</div>
+        <p class="desc">Jasmine and rose rounded out with a touch of warm caramel-musk — soft enough for every day, rich enough to notice.</p>
+        <div class="note-pills">
+          <span class="note-pill">Jasmine</span>
+          <span class="note-pill">Rose</span>
+          <span class="note-pill">Musk</span>
+          <span class="note-pill">Sandal</span>
+        </div>
+      </div>
+
+      <div class="perfume-card" data-category="oudh">
+        <div class="bottle-wrap">
+          <svg viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg">
+            <rect x="24" y="6" width="12" height="14" rx="2" fill="#281609"/>
+            <path d="M18 24 Q18 20 24 20 L36 20 Q42 20 42 24 L46 108 Q46 116 38 116 L22 116 Q14 116 14 108 Z" fill="#8A5A30" opacity="0.9"/>
+          </svg>
+        </div>
+        <h3>Signature Reserve</h3>
+        <div class="perfume-mood">Our Flagship</div>
+        <p class="desc">A little of everything that makes Aerly what it is — rose, coffee, smoke and oudh bound together by sandalwood and musk.</p>
+        <div class="note-pills">
+          <span class="note-pill">Rose</span>
+          <span class="note-pill">Coffee</span>
+          <span class="note-pill">Smoke</span>
+          <span class="note-pill">Oudh</span>
+        </div>
+      </div>
+
+      <div class="perfume-card" data-category="oudh">
+        <div class="bottle-wrap">
+          <svg viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg">
+            <rect x="24" y="6" width="12" height="14" rx="2" fill="#7A2A2A"/>
+            <path d="M18 24 Q18 20 24 20 L36 20 Q42 20 42 24 L46 108 Q46 116 38 116 L22 116 Q14 116 14 108 Z" fill="#C98A7A" opacity="0.9"/>
+          </svg>
+        </div>
+        <h3>Rose Oudh</h3>
+        <div class="perfume-mood">A Classic Pairing</div>
+        <p class="desc">True rose against deep, resinous oudh — one of perfumery's oldest pairings, kept simple and done properly.</p>
+        <div class="note-pills">
+          <span class="note-pill">Rose</span>
+          <span class="note-pill">Oudh</span>
+          <span class="note-pill">Sandal</span>
+        </div>
+      </div>
+
+      <div class="perfume-card" data-category="tobacco">
+        <div class="bottle-wrap">
+          <svg viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg">
+            <rect x="24" y="6" width="12" height="14" rx="2" fill="#5B4632"/>
+            <path d="M18 24 Q18 20 24 20 L36 20 Q42 20 42 24 L46 108 Q46 116 38 116 L22 116 Q14 116 14 108 Z" fill="#B98A52" opacity="0.9"/>
+          </svg>
+        </div>
+        <h3>Smoke &amp; Amber</h3>
+        <div class="perfume-mood">Bold &amp; Dry</div>
+        <p class="desc">Whiskey-smoke and purple oudh over a dry, woody base — no sweetness, no softness, just depth.</p>
+        <div class="note-pills">
+          <span class="note-pill">Whiskey Smoke</span>
+          <span class="note-pill">Oudh</span>
+          <span class="note-pill">Amber</span>
+        </div>
+      </div>
+
+      <div class="perfume-card" data-category="fresh">
+        <div class="bottle-wrap">
+          <svg viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg">
+            <rect x="24" y="6" width="12" height="14" rx="2" fill="#2E5248"/>
+            <path d="M18 24 Q18 20 24 20 L36 20 Q42 20 42 24 L46 108 Q46 116 38 116 L22 116 Q14 116 14 108 Z" fill="#A9C9BE" opacity="0.9"/>
+          </svg>
+        </div>
+        <h3>Cool Current</h3>
+        <div class="perfume-mood">Fresh &amp; Clean</div>
+        <p class="desc">An aromatic, structured freshness built for daily wear — the one to reach for when you want to feel put-together fast.</p>
+        <div class="note-pills">
+          <span class="note-pill">Aromatic</span>
+          <span class="note-pill">Sandal</span>
+          <span class="note-pill">Musk</span>
+        </div>
+      </div>
+
+      <div class="perfume-card" data-category="tobacco">
+        <div class="bottle-wrap"><svg viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg"><rect x="24" y="6" width="12" height="14" rx="2" fill="#3E2008"/><path d="M18 24 Q18 20 24 20 L36 20 Q42 20 42 24 L46 108 Q46 116 38 116 L22 116 Q14 116 14 108 Z" fill="#7A4A2A" opacity="0.9"/></svg></div>
+        <h3>Tobacco Vanilla</h3>
+        <div class="perfume-mood">Warm &amp; Boozy</div>
+        <p class="desc">Dry tobacco leaf warmed through with real vanilla — the classic pairing, done simply.</p>
+        <div class="note-pills"><span class="note-pill">Tobacco</span><span class="note-pill">Vanilla</span><span class="note-pill">Sandal</span></div>
+      </div>
+
+      <div class="perfume-card" data-category="tobacco">
+        <div class="bottle-wrap"><svg viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg"><rect x="24" y="6" width="12" height="14" rx="2" fill="#3E2411"/><path d="M18 24 Q18 20 24 20 L36 20 Q42 20 42 24 L46 108 Q46 116 38 116 L22 116 Q14 116 14 108 Z" fill="#6B4423" opacity="0.9"/></svg></div>
+        <h3>Charminar</h3>
+        <div class="perfume-mood">Smoky Leather</div>
+        <p class="desc">Dry tobacco grounded by soft, worn leather — a quiet, old-world masculinity.</p>
+        <div class="note-pills"><span class="note-pill">Tobacco</span><span class="note-pill">Leather</span><span class="note-pill">Oudh</span></div>
+      </div>
+
+      <div class="perfume-card" data-category="tobacco">
+        <div class="bottle-wrap"><svg viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg"><rect x="24" y="6" width="12" height="14" rx="2" fill="#332A18"/><path d="M18 24 Q18 20 24 20 L36 20 Q42 20 42 24 L46 108 Q46 116 38 116 L22 116 Q14 116 14 108 Z" fill="#5B4A32" opacity="0.9"/></svg></div>
+        <h3>Classic</h3>
+        <div class="perfume-mood">Earthy &amp; Dry</div>
+        <p class="desc">Tobacco leaf over deep patchouli — nothing sweet, nothing loud, just real depth.</p>
+        <div class="note-pills"><span class="note-pill">Tobacco</span><span class="note-pill">Patchouli</span><span class="note-pill">Sandal</span></div>
+      </div>
+
+      <div class="perfume-card" data-category="fresh">
+        <div class="bottle-wrap"><svg viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg"><rect x="24" y="6" width="12" height="14" rx="2" fill="#2A3638"/><path d="M18 24 Q18 20 24 20 L36 20 Q42 20 42 24 L46 108 Q46 116 38 116 L22 116 Q14 116 14 108 Z" fill="#4A5A5E" opacity="0.9"/></svg></div>
+        <h3>Sauvage</h3>
+        <div class="perfume-mood">Fresh &amp; Sharp</div>
+        <p class="desc">Bright bergamot over lavender and warm amber-wood — a clean, confident everyday scent.</p>
+        <div class="note-pills"><span class="note-pill">Bergamot</span><span class="note-pill">Lavender</span><span class="note-pill">Amber</span></div>
+      </div>
+
+      <div class="perfume-card" data-category="fresh">
+        <div class="bottle-wrap"><svg viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg"><rect x="24" y="6" width="12" height="14" rx="2" fill="#162828"/><path d="M18 24 Q18 20 24 20 L36 20 Q42 20 42 24 L46 108 Q46 116 38 116 L22 116 Q14 116 14 108 Z" fill="#2C4A4A" opacity="0.9"/></svg></div>
+        <h3>Deep Current</h3>
+        <div class="perfume-mood">Oceanic &amp; Dark</div>
+        <p class="desc">Marine freshness meeting deep, resinous oudh — the sea against the desert.</p>
+        <div class="note-pills"><span class="note-pill">Marine</span><span class="note-pill">Oudh</span><span class="note-pill">Patchouli</span></div>
+      </div>
+
+      <div class="perfume-card" data-category="oudh">
+        <div class="bottle-wrap"><svg viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg"><rect x="24" y="6" width="12" height="14" rx="2" fill="#6B4420"/><path d="M18 24 Q18 20 24 20 L36 20 Q42 20 42 24 L46 108 Q46 116 38 116 L22 116 Q14 116 14 108 Z" fill="#B97A3E" opacity="0.9"/></svg></div>
+        <h3>Skin &amp; Amber</h3>
+        <div class="perfume-mood">Warm Skin Scent</div>
+        <p class="desc">A radiant, amber-forward scent built to feel like warm skin rather than perfume.</p>
+        <div class="note-pills"><span class="note-pill">Amber</span><span class="note-pill">Sandal</span><span class="note-pill">Musk</span></div>
+      </div>
+
+      <div class="perfume-card" data-category="gourmand">
+        <div class="bottle-wrap"><svg viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg"><rect x="24" y="6" width="12" height="14" rx="2" fill="#3E0F18"/><path d="M18 24 Q18 20 24 20 L36 20 Q42 20 42 24 L46 108 Q46 116 38 116 L22 116 Q14 116 14 108 Z" fill="#6B1F2A" opacity="0.9"/></svg></div>
+        <h3>Vampire Blood</h3>
+        <div class="perfume-mood">Dark &amp; Fruity</div>
+        <p class="desc">Blood-red berries and dark plum over a black musk base — sweet, tart, a little dangerous.</p>
+        <div class="note-pills"><span class="note-pill">Berries</span><span class="note-pill">Plum</span><span class="note-pill">Musk</span></div>
+      </div>
+
+      <div class="perfume-card" data-category="fresh">
+        <div class="bottle-wrap"><svg viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg"><rect x="24" y="6" width="12" height="14" rx="2" fill="#403F3A"/><path d="M18 24 Q18 20 24 20 L36 20 Q42 20 42 24 L46 108 Q46 116 38 116 L22 116 Q14 116 14 108 Z" fill="#6B6B63" opacity="0.9"/></svg></div>
+        <h3>Mystery</h3>
+        <div class="perfume-mood">Unlabeled, On Purpose</div>
+        <p class="desc">An aromatic-marine blend we're still identifying ourselves — worn as-is, no notes promised.</p>
+        <div class="note-pills"><span class="note-pill">Aromatic</span><span class="note-pill">Marine</span></div>
+      </div>
+
+      <div class="perfume-card" data-category="floral">
+        <div class="bottle-wrap"><svg viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg"><rect x="24" y="6" width="12" height="14" rx="2" fill="#7A4A58"/><path d="M18 24 Q18 20 24 20 L36 20 Q42 20 42 24 L46 108 Q46 116 38 116 L22 116 Q14 116 14 108 Z" fill="#C98A9C" opacity="0.9"/></svg></div>
+        <h3>Flora</h3>
+        <div class="perfume-mood">Soft Floral Amber</div>
+        <p class="desc">A gentle, modern floral-amber — soft enough to wear without thinking about it.</p>
+        <div class="note-pills"><span class="note-pill">Floral</span><span class="note-pill">Amber</span><span class="note-pill">Musk</span></div>
+      </div>
+
+      <div class="perfume-card" data-category="floral">
+        <div class="bottle-wrap"><svg viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg"><rect x="24" y="6" width="12" height="14" rx="2" fill="#5A4A7A"/><path d="M18 24 Q18 20 24 20 L36 20 Q42 20 42 24 L46 108 Q46 116 38 116 L22 116 Q14 116 14 108 Z" fill="#9C8AC9" opacity="0.9"/></svg></div>
+        <h3>Fantasy</h3>
+        <div class="perfume-mood">Floral &amp; Woody</div>
+        <p class="desc">A complete floral-woody-musk accord with a soft citrus edge — easy, familiar, well-balanced.</p>
+        <div class="note-pills"><span class="note-pill">Floral</span><span class="note-pill">Wood</span><span class="note-pill">Citrus</span></div>
+      </div>
+
+      <div class="perfume-card" data-category="gourmand">
+        <div class="bottle-wrap"><svg viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg"><rect x="24" y="6" width="12" height="14" rx="2" fill="#2E1C10"/><path d="M18 24 Q18 20 24 20 L36 20 Q42 20 42 24 L46 108 Q46 116 38 116 L22 116 Q14 116 14 108 Z" fill="#4A2E1A" opacity="0.9"/></svg></div>
+        <h3>Eclairs</h3>
+        <div class="perfume-mood">Gourmand</div>
+        <p class="desc">Dark chocolate rounded out with warm caramel — a dessert in a bottle, nothing more complicated than that.</p>
+        <div class="note-pills"><span class="note-pill">Chocolate</span><span class="note-pill">Caramel</span></div>
+      </div>
+
+      <div class="perfume-card" data-category="gourmand">
+        <div class="bottle-wrap"><svg viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg"><rect x="24" y="6" width="12" height="14" rx="2" fill="#5A2E38"/><path d="M18 24 Q18 20 24 20 L36 20 Q42 20 42 24 L46 108 Q46 116 38 116 L22 116 Q14 116 14 108 Z" fill="#9C5A6B" opacity="0.9"/></svg></div>
+        <h3>Melody</h3>
+        <div class="perfume-mood">Playful Gourmand</div>
+        <p class="desc">Dark chocolate against playful sugared candy — sweet, a little mischievous.</p>
+        <div class="note-pills"><span class="note-pill">Chocolate</span><span class="note-pill">Candy</span></div>
+      </div>
+
+      <div class="perfume-card" data-category="gourmand">
+        <div class="bottle-wrap"><svg viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg"><rect x="24" y="6" width="12" height="14" rx="2" fill="#4A2814"/><path d="M18 24 Q18 20 24 20 L36 20 Q42 20 42 24 L46 108 Q46 116 38 116 L22 116 Q14 116 14 108 Z" fill="#8A4A2E" opacity="0.9"/></svg></div>
+        <h3>Dark Fantasy</h3>
+        <div class="perfume-mood">Citrus Gourmand</div>
+        <p class="desc">Bright orange lifting dark chocolate over a refined white oudh base — rich but never heavy.</p>
+        <div class="note-pills"><span class="note-pill">Orange</span><span class="note-pill">Chocolate</span><span class="note-pill">Oudh</span></div>
+      </div>
+
+      <div class="perfume-card" data-category="citrus">
+        <div class="bottle-wrap"><svg viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg"><rect x="24" y="6" width="12" height="14" rx="2" fill="#4A3F18"/><path d="M18 24 Q18 20 24 20 L36 20 Q42 20 42 24 L46 108 Q46 116 38 116 L22 116 Q14 116 14 108 Z" fill="#8A7A3E" opacity="0.9"/></svg></div>
+        <h3>Citrus</h3>
+        <div class="perfume-mood">Classic Chypre</div>
+        <p class="desc">Bright orange settling into deep, earthy patchouli — a timeless structure, not a trend.</p>
+        <div class="note-pills"><span class="note-pill">Orange</span><span class="note-pill">Patchouli</span><span class="note-pill">Sandal</span></div>
+      </div>
+
+      <div class="perfume-card" data-category="gourmand">
+        <div class="bottle-wrap"><svg viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg"><rect x="24" y="6" width="12" height="14" rx="2" fill="#6B4E18"/><path d="M18 24 Q18 20 24 20 L36 20 Q42 20 42 24 L46 108 Q46 116 38 116 L22 116 Q14 116 14 108 Z" fill="#C9973E" opacity="0.9"/></svg></div>
+        <h3>Vanille d'Or</h3>
+        <div class="perfume-mood">Pure Vanilla</div>
+        <p class="desc">Warm, golden vanilla on its own — simple, comforting, the one people ask about.</p>
+        <div class="note-pills"><span class="note-pill">Vanilla</span><span class="note-pill">Sandal</span></div>
+      </div>
+
+      <div class="perfume-card" data-category="floral">
+        <div class="bottle-wrap"><svg viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg"><rect x="24" y="6" width="12" height="14" rx="2" fill="#1C2E1C"/><path d="M18 24 Q18 20 24 20 L36 20 Q42 20 42 24 L46 108 Q46 116 38 116 L22 116 Q14 116 14 108 Z" fill="#3E5A3E" opacity="0.9"/></svg></div>
+        <h3>Jicky Nice</h3>
+        <div class="perfume-mood">Aromatic Floral</div>
+        <p class="desc">Bright bergamot and lavender over a soft floral heart, grounded in vanilla, sandalwood and leather.</p>
+        <div class="note-pills"><span class="note-pill">Bergamot</span><span class="note-pill">Lavender</span><span class="note-pill">Jasmine</span><span class="note-pill">Vanilla</span></div>
+      </div>
+
+      <div class="perfume-card" data-category="fresh">
+        <div class="bottle-wrap"><svg viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg"><rect x="24" y="6" width="12" height="14" rx="2" fill="#5A7A88"/><path d="M18 24 Q18 20 24 20 L36 20 Q42 20 42 24 L46 108 Q46 116 38 116 L22 116 Q14 116 14 108 Z" fill="#A9C9D9" opacity="0.9"/></svg></div>
+        <h3>Neat</h3>
+        <div class="perfume-mood">Pure &amp; Cool</div>
+        <p class="desc">Clean, ozonic freshness with nothing added — the one to wear when you want to disappear a little.</p>
+        <div class="note-pills"><span class="note-pill">Ozonic</span><span class="note-pill">Musk</span></div>
+      </div>
+
+      <div class="perfume-card" data-category="fresh">
+        <div class="bottle-wrap"><svg viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg"><rect x="24" y="6" width="12" height="14" rx="2" fill="#1C3E3E"/><path d="M18 24 Q18 20 24 20 L36 20 Q42 20 42 24 L46 108 Q46 116 38 116 L22 116 Q14 116 14 108 Z" fill="#3E7A7A" opacity="0.9"/></svg></div>
+        <h3>Aqua Fire</h3>
+        <div class="perfume-mood">Fresh Meets Warm</div>
+        <p class="desc">Cool marine freshness colliding with warm amber depth — two opposite temperatures in one bottle.</p>
+        <div class="note-pills"><span class="note-pill">Marine</span><span class="note-pill">Amber</span></div>
+      </div>
+
+      <div class="perfume-card" data-category="fresh">
+        <div class="bottle-wrap"><svg viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg"><rect x="24" y="6" width="12" height="14" rx="2" fill="#16283E"/><path d="M18 24 Q18 20 24 20 L36 20 Q42 20 42 24 L46 108 Q46 116 38 116 L22 116 Q14 116 14 108 Z" fill="#2E4A6B" opacity="0.9"/></svg></div>
+        <h3>Midnight Tide</h3>
+        <div class="perfume-mood">Fresh Floral</div>
+        <p class="desc">Clean water freshness settling into heady jasmine after dark — fresh by day, different by night.</p>
+        <div class="note-pills"><span class="note-pill">Aqua</span><span class="note-pill">Jasmine</span><span class="note-pill">Musk</span></div>
+      </div>
+
+      <div class="perfume-card" data-category="floral">
+        <div class="bottle-wrap"><svg viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg"><rect x="24" y="6" width="12" height="14" rx="2" fill="#405840"/><path d="M18 24 Q18 20 24 20 L36 20 Q42 20 42 24 L46 108 Q46 116 38 116 L22 116 Q14 116 14 108 Z" fill="#8AA98A" opacity="0.9"/></svg></div>
+        <h3>Agomoni</h3>
+        <div class="perfume-mood">Dawn Flower</div>
+        <p class="desc">Named for the season Siuli blooms — delicate night-jasmine carried on clean, early-morning freshness.</p>
+        <div class="note-pills"><span class="note-pill">Siuli</span><span class="note-pill">Aqua</span><span class="note-pill">Sandal</span></div>
+      </div>
+
+      <div class="perfume-card" data-category="gourmand">
+        <div class="bottle-wrap"><svg viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg"><rect x="24" y="6" width="12" height="14" rx="2" fill="#1C120A"/><path d="M18 24 Q18 20 24 20 L36 20 Q42 20 42 24 L46 108 Q46 116 38 116 L22 116 Q14 116 14 108 Z" fill="#3E2818" opacity="0.9"/></svg></div>
+        <h3>Chocolate Oudh</h3>
+        <div class="perfume-mood">Dark Gourmand</div>
+        <p class="desc">Bitter dark chocolate against deep, resinous oudh — rich, grounded, unmistakably Aerly.</p>
+        <div class="note-pills"><span class="note-pill">Chocolate</span><span class="note-pill">Oudh</span><span class="note-pill">Sandal</span></div>
+      </div>
+
+      <div class="perfume-card" data-category="tobacco">
+        <div class="bottle-wrap"><svg viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg"><rect x="24" y="6" width="12" height="14" rx="2" fill="#4A3A1C"/><path d="M18 24 Q18 20 24 20 L36 20 Q42 20 42 24 L46 108 Q46 116 38 116 L22 116 Q14 116 14 108 Z" fill="#8A6A3E" opacity="0.9"/></svg></div>
+        <h3>Cigar</h3>
+        <div class="perfume-mood">Honeyed Tobacco</div>
+        <p class="desc">Dried fruit and tobacco warmed with bergamot and jasmine, settled into patchouli and sandalwood — built to read like an actual cigar, not a cologne.</p>
+        <div class="note-pills"><span class="note-pill">Tobacco</span><span class="note-pill">Bergamot</span><span class="note-pill">Patchouli</span></div>
+      </div>
+
+      <div class="perfume-card" data-category="oudh">
+        <div class="bottle-wrap"><svg viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg"><rect x="24" y="6" width="12" height="14" rx="2" fill="#1C2814"/><path d="M18 24 Q18 20 24 20 L36 20 Q42 20 42 24 L46 108 Q46 116 38 116 L22 116 Q14 116 14 108 Z" fill="#4A5A3E" opacity="0.9"/></svg></div>
+        <h3>First Flush</h3>
+        <div class="perfume-mood">Earthy Floral</div>
+        <p class="desc">A single heady jasmine note held up by patchouli, oudh and saffron — deep and grounded from the very first moment.</p>
+        <div class="note-pills"><span class="note-pill">Jasmine</span><span class="note-pill">Patchouli</span><span class="note-pill">Oudh</span><span class="note-pill">Saffron</span></div>
+      </div>
+
+      <div class="perfume-card" data-category="tobacco">
+        <div class="bottle-wrap"><svg viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg"><rect x="24" y="6" width="12" height="14" rx="2" fill="#2E1C0A"/><path d="M18 24 Q18 20 24 20 L36 20 Q42 20 42 24 L46 108 Q46 116 38 116 L22 116 Q14 116 14 108 Z" fill="#6B4A2E" opacity="0.9"/></svg></div>
+        <h3>100 Smoke</h3>
+        <div class="perfume-mood">Rich &amp; Layered</div>
+        <p class="desc">Cigar's honeyed warmth, smooth oud wood, and saffron richness layered into one dense, slow-building composition.</p>
+        <div class="note-pills"><span class="note-pill">Cigar</span><span class="note-pill">Oud</span><span class="note-pill">Saffron</span></div>
+      </div>
+
+      <div class="perfume-card" data-category="fresh">
+        <div class="bottle-wrap"><svg viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg"><rect x="24" y="6" width="12" height="14" rx="2" fill="#2E4A1C"/><path d="M18 24 Q18 20 24 20 L36 20 Q42 20 42 24 L46 108 Q46 116 38 116 L22 116 Q14 116 14 108 Z" fill="#8AA978" opacity="0.9"/></svg></div>
+        <h3>Fresh Herbs</h3>
+        <div class="perfume-mood">Clean &amp; Aromatic</div>
+        <p class="desc">Crisp water freshness structured with aromatic lavender — clean without being sharp.</p>
+        <div class="note-pills"><span class="note-pill">Aqua</span><span class="note-pill">Lavender</span><span class="note-pill">Musk</span></div>
+      </div>
+
+      <div class="perfume-card" data-category="tobacco">
+        <div class="bottle-wrap"><svg viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg"><rect x="24" y="6" width="12" height="14" rx="2" fill="#2E0A0F"/><path d="M18 24 Q18 20 24 20 L36 20 Q42 20 42 24 L46 108 Q46 116 38 116 L22 116 Q14 116 14 108 Z" fill="#6B2A2E" opacity="0.9"/></svg></div>
+        <h3>Cherry Smoke</h3>
+        <div class="perfume-mood">Dark &amp; Fruited</div>
+        <p class="desc">Sour cherry and saffron over leather, smoke and warm woods — moody rather than sweet.</p>
+        <div class="note-pills"><span class="note-pill">Cherry</span><span class="note-pill">Saffron</span><span class="note-pill">Leather</span><span class="note-pill">Smoke</span></div>
+      </div>
+
+      <div class="perfume-card" data-category="citrus">
+        <div class="bottle-wrap"><svg viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg"><rect x="24" y="6" width="12" height="14" rx="2" fill="#4A3E14"/><path d="M18 24 Q18 20 24 20 L36 20 Q42 20 42 24 L46 108 Q46 116 38 116 L22 116 Q14 116 14 108 Z" fill="#9C8A3E" opacity="0.9"/></svg></div>
+        <h3>Citrus Cypher</h3>
+        <div class="perfume-mood">Bright &amp; Blended</div>
+        <p class="desc">The same citrus-patchouli structure as Citrus, smoothed into one seamless transition from top to base.</p>
+        <div class="note-pills"><span class="note-pill">Orange</span><span class="note-pill">Patchouli</span><span class="note-pill">Sandal</span></div>
+      </div>
+
+      <div class="perfume-card" data-category="citrus">
+        <div class="bottle-wrap"><svg viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg"><rect x="24" y="6" width="12" height="14" rx="2" fill="#6B4818"/><path d="M18 24 Q18 20 24 20 L36 20 Q42 20 42 24 L46 108 Q46 116 38 116 L22 116 Q14 116 14 108 Z" fill="#C9883E" opacity="0.9"/></svg></div>
+        <h3>Citrus Vanille</h3>
+        <div class="perfume-mood">Citrus Gourmand</div>
+        <p class="desc">Orange and patchouli warmed through with real vanilla — a sweeter, cozier spin on the classic chypre structure.</p>
+        <div class="note-pills"><span class="note-pill">Orange</span><span class="note-pill">Patchouli</span><span class="note-pill">Vanilla</span></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</div>
+
+<!-- CUSTOM / CONTACT -->
+<section id="custom">
+  <div id="contactSplit" class="wrap contact-split">
+    <div id="customCopy">
+      <h2>Want it in your own colours?</h2>
+      <p>Every shape in the catalogue is open to custom colour requests — tell us the palette, the occasion, or the fragrance, and we'll hand-pour it for you. Most custom orders take 3–5 days to make.</p>
+      <p>Based in Kolkata, shipping across India.</p>
+    </div>
+    <div id="contact" class="contact-card">
+      <div class="label">WhatsApp</div>
+      <a class="value value-link" href="https://wa.me/919073377829?text=Hi%20Aerly%2C%20I%27d%20like%20to%20know%20more%20about%20your%20candles." target="_blank" rel="noopener">90733 77829</a>
+      <div class="label">Instagram</div>
+      <a class="value value-link" href="https://www.instagram.com/a.e.r.l.y?stkn=MWx6eXQ3c3oxbzZ1dA%3D%3D&amp;utm_source=qr" target="_blank" rel="noopener">@a.e.r.l.y</a>
+      <a class="btn btn-primary wa-cta" href="https://wa.me/919073377829?text=Hi%20Aerly%2C%20I%27d%20like%20to%20know%20more%20about%20your%20candles." target="_blank" rel="noopener">Chat on WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span class="brandmark serif">AERLY</span>
+  <span class="tagline">Too light to resist. Not worn. Breathed.</span>
+  <div class="meta">
+    Handmade in Kolkata &nbsp;·&nbsp;
+    <a href="https://www.instagram.com/a.e.r.l.y?stkn=MWx6eXQ3c3oxbzZ1dA%3D%3D&amp;utm_source=qr" target="_blank" rel="noopener">Instagram</a>
+    &nbsp;·&nbsp;
+    <a href="https://wa.me/919073377829?text=Hi%20Aerly%2C%20I%27d%20like%20to%20know%20more%20about%20your%20candles." target="_blank" rel="noopener">WhatsApp: 90733 77829</a>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/919073377829?text=Hi%20Aerly%2C%20I%27d%20like%20to%20know%20more%20about%20your%20candles." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24" fill="#fff"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.84 9.84 0 0 0 12.04 2zm0 1.67c2.21 0 4.29.86 5.85 2.42a8.23 8.23 0 0 1 2.43 5.82c0 4.55-3.7 8.25-8.26 8.25a8.3 8.3 0 0 1-4.21-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.27-4.41c0-4.55 3.71-8.22 8.25-8.22zm-4.3 4.73c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.67 2.6 4.12 3.6 2.03.83 2.44.67 2.88.63.44-.04 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.02-.38-1.94-1.2-.72-.64-1.2-1.44-1.34-1.68-.14-.24-.02-.37.11-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.32-.75-1.8-.2-.47-.4-.4-.54-.41-.14-.01-.3-.01-.46-.01z"/></svg>
+</a>
+
+<script>
+  var toggle = document.getElementById('navToggle');
+  var links = document.getElementById('navLinks');
+  if (toggle) {
+    toggle.addEventListener('click', function () {
+      links.classList.toggle('open');
+    });
+    links.querySelectorAll('a').forEach(function (a) {
+      a.addEventListener('click', function () { links.classList.remove('open'); });
+    });
+  }
+
+  // ---- Tab switching ----
+  var tabBtns = document.querySelectorAll('.tab-btn');
+  var tabPanels = {
+    candles: document.getElementById('tab-candles'),
+    perfumes: document.getElementById('tab-perfumes')
+  };
+
+  var contactSplit = document.getElementById('contactSplit');
+
+  function activateTab(name) {
+    tabBtns.forEach(function (btn) {
+      btn.classList.toggle('active', btn.dataset.tab === name);
+    });
+    Object.keys(tabPanels).forEach(function (key) {
+      tabPanels[key].classList.toggle('active', key === name);
+    });
+    if (contactSplit) {
+      contactSplit.classList.toggle('perfume-mode', name === 'perfumes');
+    }
+  }
+
+  tabBtns.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      activateTab(btn.dataset.tab);
+    });
+  });
+
+  // ---- Perfume category filter ----
+  var catBtns = document.querySelectorAll('.cat-btn');
+  var perfumeCards = document.querySelectorAll('.perfume-card');
+
+  catBtns.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      catBtns.forEach(function (b) { b.classList.toggle('active', b === btn); });
+      var cat = btn.dataset.cat;
+      perfumeCards.forEach(function (card) {
+        var show = cat === 'all' || card.dataset.category === cat;
+        card.classList.toggle('hidden', !show);
+      });
+    });
+  });
+
+  // Nav links that point inside a tab panel should open that tab first
+  var navTabMap = { 'collections': 'candles', 'fragrances': 'candles', 'perfumes': 'perfumes' };
+  document.querySelectorAll('.navlinks a').forEach(function (a) {
+    var id = a.getAttribute('href').replace('#', '');
+    if (navTabMap[id]) {
+      a.addEventListener('click', function () {
+        activateTab(navTabMap[id]);
+      });
+    }
+  });
+</script>
+
+</body>
+</html>
